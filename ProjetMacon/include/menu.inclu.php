@@ -22,7 +22,7 @@
                     <li><a class="nav-link" href="avis.php">Avis</a></li>
                     <li><a class="nav-link" href="accueil.php">Devis</a></li>
                     <li><a class="nav-link" href="#">Gestion des Avis</a></li>
-                    <li><a class="nav-link" href="#">Gestion des Devis</a></li>
+                    <li><a class="nav-link" href="gestion_devis.php">Gestion des Devis</a></li>
 
                     <ul class="navbar-nav mr-right">
                       <li class="nav-item">
