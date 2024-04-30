@@ -27,9 +27,13 @@ class DevisManager {
 
     public function getDevis(){
         $q = $this-> _db->query('SELECT * FROM devis');
-        $devisInfo = $q->fetch(PDO::FETCH_ASSOC);
+        $devisInfo = $q->fetchAll(PDO::FETCH_ASSOC);
         return  $devisInfo;
 
+    }
+
+    public function deleteDevis(){
+        
     }
 
     public function setDb(PDO $db){
